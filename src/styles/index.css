@@ -7,4 +7,14 @@
   align-items: center;
   justify-content: center;
 }
-   
+   .card {
+     width: 300px; /* Define el ancho deseado */
+     height: 400px; /* Define el alto deseado */
+     border: 1px solid #ccc;
+     padding: 10px;
+     display: flex;
+     flex-direction: column; /* Para organizar los elementos dentro de la carta */
+     justify-content: space-between; /* Para distribuir el espacio entre los elementos */
+     align-items: center; /* Para centrar los elementos horizontalmente */
+     box-sizing: border-box; /* Incluir el padding y el borde en el tamaño de la carta */
+   }
